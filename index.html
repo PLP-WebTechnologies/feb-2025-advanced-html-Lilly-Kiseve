@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML images, lists, tables, forms & input types.</title>
+</head>
+<body>
+    <h2>Ordered lists</h2>
+    <ol type="i">
+        <li>Lilly</li>
+        <li>Mark</li>
+        <li>Matthew</li>
+        <li>Tania</li>
+        <li>Tom</li>
+    </ol>
+    <h2>Images</h2>
+    <h3>External images</h3>
+    <img src="https://images.pexels.com/photos/31187944/pexels-photo-31187944/free-photo-of-cozy-reading-scene-with-coffee-and-flowers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image of a reading with coffee and flower" height="500" width="500">
+    <h2>Tables</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Emails</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tr>
+            <td>Chloe</td>
+            <td>P.O BOX 22</td>
+            <td>0711336677</td>
+            <td>chloe@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Clarke</td>
+            <td>P.O BOX 122</td>
+            <td>0799675432</td>
+            <td>clarke@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Ephantus</td>
+            <td>P.O BOX 31</td>
+            <td>0788954321</td>
+            <td>epha@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Samuel</td>
+            <td>PO BOX 11</td>
+            <td>0712456790</td>
+            <td>samuel@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Lilly</td>
+            <td>P.O BOX 13</td>
+            <td>0762720780</td>
+            <td>lilly@gmail.com</td>
+        </tr>
+        <tfoot></tfoot>
+    </table>
+    <h2>Registration Forms</h2>
+    <form action="" method="">
+        <label for="name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <label for="Date">Date:</label>
+        <input type="date" id="date" name="date" placeholder="Enter date" required>
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="male">Male
+        <br><br>
+        <label for="interests">Interests:</label>
+        <input type="checkbox" name="interests" value="sports">Sports
+        <input type="checkbox" name="interests" value="music">music
+        <input type="checkbox" name="interests" value="reading">Reading
+        <input type="checkbox" name="interests" value="clubbing">clubbing
+        <br><br>
+        <label>Fruit</label>
+        <select name="fruit" id="fruit" multiple>
+            <option>--select fruit--</option>
+            <option value="pineapple">Pineapple</option>
+            <option value="kiwi">Kiwi</option>
+            <option value="banana">Banana</option>
+            <option value="strawberry">strawberry</option>
+
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+        <input type="reset" value="cancel/reset">
+
+
+
+    </form>
+    <!-- end of form -->
+     <h2>HTML audio</h2>
+     <audio src="https://incompetech.com/music/royalty-free/mp3-royaltyfree/That%20Zen%20Moment.mp3" controls></audio>
+</body>
+</html>
